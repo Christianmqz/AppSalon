@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+
+.alerta {
+    padding: calc(v.$separacion / 4);
+    color: v.$blanco;
+    width: 100%;
+    display: block; // Asegura que las alertas se muestren hacia abajo 
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: v.$bold;
+    text-transform: uppercase;  
+    border-radius: 1rem ;
+
+    &.error {
+        background-color: v.$rojo;
+    }
+
+    &.exito {
+        background-color: v.$verde;
+    }
+    &.marginTop {
+        margin-top: 2.5rem;
+    }
+}
+

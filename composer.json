@@ -1,0 +1,23 @@
+{
+    "name": "christianmqz10/app-salon",
+    "description": "Proyecto con PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christianmqz",
+            "email": "Starboycreations01@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
